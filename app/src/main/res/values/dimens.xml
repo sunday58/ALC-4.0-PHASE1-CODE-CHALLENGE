@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margins">8dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="padding2">24dp</dimen>
+    <dimen name="image_magine">2dp</dimen>
+    <dimen name="image_magin2">8dp</dimen>
+    <dimen name="image_height">318dp</dimen>
+</resources>
