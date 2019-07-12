@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CodeChallenge</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_1">Button 1</string>
+    <string name="alc4phase1">ALC 4 phase 1</string>
+    <string name="myProfile">my profile</string>
+    <string name="aboutAlc">ABOUT ALC</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="track">Track:</string>
+    <string name="country">Country:</string>
+    <string name="email">Email:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="slack_username">Slack Username:</string>
+    <string name="sunday_david">Sunday David</string>
+    <string name="android">Android</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="sundaydavid989_gmail_com">sundaydavid989@gmail.com</string>
+    <string name="_07060764670">07060764670</string>
+    <string name="dboy">\@dboy</string>
+</resources>

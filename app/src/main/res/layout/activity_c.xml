@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityC">
+
+
+    <ImageView
+        android:id="@+id/davidPic"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/image_height"
+        android:layout_marginStart="@dimen/image_magine"
+        android:layout_marginLeft="@dimen/image_magine"
+        android:layout_marginTop="@dimen/image_magine"
+        android:layout_marginEnd="@dimen/image_magin2"
+        android:layout_marginRight="@dimen/image_magine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/work" />
+
+    <TextView
+        android:id="@+id/track"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:layout_marginTop="@dimen/margins"
+        android:paddingTop="@dimen/padding2"
+        android:text="@string/track"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:paddingTop="@dimen/padding2"
+        android:text="@string/country"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/track"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:paddingTop="@dimen/padding2"
+        android:text="@string/email"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/country"/>
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:paddingTop="@dimen/padding2"
+        android:text="@string/phone_number"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email"/>
+
+    <TextView
+        android:id="@+id/slackUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:paddingTop="@dimen/padding2"
+        android:text="@string/slack_username"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:layout_marginEnd="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:paddingTop="@dimen/padding"
+        android:text="@string/sunday_david"
+        android:textColor="@color/welcomeText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/davidPic"/>
+
+    <TextView
+        android:id="@+id/trackAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margins"
+        android:layout_marginEnd="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:paddingStart="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingTop="@dimen/padding2"
+        android:paddingEnd="@dimen/padding"
+        android:text="@string/android"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/track"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/countryAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:paddingStart="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingTop="@dimen/padding2"
+        android:paddingEnd="@dimen/padding"
+        android:text="@string/nigeria"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/country"
+        app:layout_constraintTop_toBottomOf="@+id/trackAnswer"/>
+
+    <TextView
+        android:id="@+id/EmailAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:paddingStart="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingTop="@dimen/padding2"
+        android:paddingEnd="@dimen/padding"
+        android:text="@string/sundaydavid989_gmail_com"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Email"
+        app:layout_constraintTop_toBottomOf="@+id/countryAnswer"/>
+
+    <TextView
+        android:id="@+id/phoneNumberAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:layout_marginEnd="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:paddingStart="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingTop="@dimen/padding2"
+        android:paddingEnd="@dimen/padding"
+        android:text="@string/_07060764670"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAnswer"/>
+
+    <TextView
+        android:id="@+id/slackUsernameAnswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margins"
+        android:layout_marginLeft="@dimen/margins"
+        android:layout_marginEnd="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:paddingStart="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingTop="@dimen/padding2"
+        android:paddingEnd="@dimen/padding"
+        android:text="@string/dboy"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/slackUsername"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberAnswer"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
